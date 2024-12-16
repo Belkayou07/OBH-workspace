@@ -71,10 +71,10 @@ export const OurValuesSection: React.FC = () => {
               className="text-3xl sm:text-4xl md:text-5xl font-bold text-green-700 text-center mb-4"
             >
               {t('our-values.title')}
+              <p className="text-gray-300 mb-8 text-base md:text-lg text-center">
+                {t('our-values.description')}
+              </p>
             </motion.h2>
-            <p className="text-gray-300 mb-8 text-base md:text-lg text-center">
-              {t('our-values.description')}
-            </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 w-full">
               {features.map((feature, index) => (
                 <motion.div
