@@ -1,0 +1,130 @@
+{
+    "nav": {
+        "home": "Home",
+        "our-values": "Our Values",
+        "menu": "Our Menu",
+        "opening-hours": "Opening Hours",
+        "reservations": "Reservations",
+        "reviews": "Reviews",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "O'Brunch House",
+        "cta": "Reserve a Table"
+    },
+    "our-values": {
+        "title": "Our Values",
+        "description": "Your daily pleasure",
+        "features": [
+            {
+                "title": "Breakfast & Brunch",
+                "description": "Delightful morning meals to start your day"
+            },
+            {
+                "title": "Sandwiches & Desserts",
+                "description": "Delicious options for every craving"
+            },
+            {
+                "title": "Private Free Parking",
+                "description": "Convenient and hassle-free parking for our guests"
+            },
+            {
+                "title": "Outside Terrace",
+                "description": "Enjoy your meal in our beautiful outdoor seating area"
+            },
+            {
+                "title": "Takeaway",
+                "description": "Enjoy our delicious meals at home with convenient takeaway options"
+            },
+            {
+                "title": "Reduced Mobility Access",
+                "description": "Fully accessible facilities to ensure comfort for all our guests"
+            }
+        ]
+    },
+    "menu": {
+        "title": "Our Menu",
+        "items": {
+            "Ontbijt": "Breakfast",
+            "Broodjes": "Sandwiches",
+            "Toasts": "Toasts",
+            "Salades": "Salads",
+            "Desserten": "Desserts",
+            "Dranken": "Drinks"
+        }
+    },
+    "openingHours": {
+        "title": "Opening Hours",
+        "hours": {
+            "friday": "08:30–15:00",
+            "saturday": "09:00–16:00",
+            "sunday": "09:00–16:00",
+            "monday": "08:30–15:00",
+            "tuesday": "Closed",
+            "wednesday": "08:30–15:00",
+            "thursday": "08:30–15:00"
+        }
+    },
+    "reservations": {
+        "title": "Book Your Table",
+        "phone": {
+            "title": "Call to Reserve",
+            "description": "We recommend calling to make your reservation and ensure the best dining experience.",
+            "note": "Our staff will be happy to assist you with any special requests or dietary requirements."
+        }
+    },
+    "reviews": {
+        "title": "What Our Guests Say",
+        "subtitle": "Honest Experiences from Our Visitors",
+        "list": [
+            {
+                "name": "Najat",
+                "text": "A warm and family-friendly place with very helpful and welcoming staff. The dishes are delicious and generous. We will definitely return 😊 Keep up the great work!",
+                "rating": 5
+            },
+            {
+                "name": "Wendy Hoolants",
+                "text": "We stopped by today and everything was full. Still, we were helped quickly and kindly. Very friendly service and the food was top! Way too much ☺️ Everything fresh. We will definitely come back. Keep it up.",
+                "rating": 5
+            },
+            {
+                "name": "Leen De Witte",
+                "text": "Super delicious and friendly! Delicious fresh sandwich and delightful feta salad. The supplement for lawyer might be a bit pricey in proportion to the amount. Thank you for this place!",
+                "rating": 5
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact Us",
+        "address": {
+            "label": "Location",
+            "street": "Lesagestraat 39",
+            "city": "Steenokkerzeel",
+            "region": "Flemish Region",
+            "country": "Belgium",
+            "value": "Lesagestraat 39, 1820 Steenokkerzeel, Belgium",
+            "googleMapsLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.066594203589!2d4.514726!3d50.9224851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3ddf65bdb1051%3A0xf56ab9ba4183fbb4!2sO&#39;%20Brunch%20House!5e0!3m2!1snl!2sbe!4v1734342770572!5m2!1snl!2sbe"
+        },
+        "location": "Lesagestraat 39, 1820 Steenokkerzeel, Belgium",
+        "phone": "+32 484 57 62 66",
+        "email": "example@obrunchhouse.be",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "submit": "Send Message"
+        }
+    },
+    "days": {
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+    },
+    "footer": {
+        "copyright": " O'Brunch House {{year}}. All Rights Reserved"
+    }
+}
