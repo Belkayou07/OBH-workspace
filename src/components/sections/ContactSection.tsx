@@ -8,28 +8,30 @@ const MapImage: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
   const mapUrl = `https://www.openstreetmap.org/export/embed.html?bbox=4.5304-0.01,50.8853-0.01,4.5304+0.01,50.8853+0.01&layer=mapnik&marker=50.8853,4.5304`;
 
   return (
-    <div className="w-full h-[250px] overflow-hidden">
-      {children}
-      <iframe
-        src={mapUrl}
-        width="100%"
-        height="100%"
-        frameBorder="0"
-        scrolling="no"
-        marginHeight={0}
-        marginWidth={0}
-        title="O' Brunch House Location"
-      />
-      <small>
-        <a
-          href={`https://www.openstreetmap.org/?mlat=50.8853&mlon=4.5304#map=15/50.8853/4.5304`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View Larger Map
-        </a>
-      </small>
-    </div>
+<div className="w-full h-[250px] overflow-hidden">
+  {children}
+  <iframe
+    src={mapUrl}
+    width="100%"
+    height="100%"
+    frameBorder="0"
+    scrolling="no"
+    marginHeight={0}
+    marginWidth={0}
+    title="O' Brunch House Location"
+    className="w-full h-full"
+  />
+  <small>
+    <a
+      href={`https://www.openstreetmap.org/?mlat=50.8853&mlon=4.5304#map=15/50.8853/4.5304`}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      View Larger Map
+    </a>
+  </small>
+</div>
+
   );
 };
 
