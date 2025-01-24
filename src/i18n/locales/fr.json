@@ -1,0 +1,125 @@
+{
+    "nav": {
+        "home": "Accueil",
+        "our-values": "Nos Valeurs",
+        "menu": "Notre Menu",
+        "opening-hours": "Heures d'Ouverture",
+        "reservations": "Réservations",
+        "reviews": "Avis",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "O'Brunch House",
+        "cta": "Réserver une Table"
+    },
+    "our-values": {
+        "title": "Nos Valeurs",
+        "description": "Votre plaisir quotidien",
+        "features": [
+            {
+                "title": "Petit-déjeuner & Brunch",
+                "description": "Délicieux repas du matin pour commencer votre journée"
+            },
+            {
+                "title": "Sandwichs & Desserts",
+                "description": "Délicieuses options pour tous les goûts"
+            },
+            {
+                "title": "Parking Privé Gratuit",
+                "description": "Stationnement pratique et sans souci pour nos invités"
+            },
+            {
+                "title": "Terrasse Extérieure",
+                "description": "Profitez de votre repas dans notre belle aire de restauration extérieure"
+            },
+            {
+                "title": "À emporter",
+                "description": "Savourez nos délicieux plats à la maison avec nos options de restauration à emporter"
+            },
+            {
+                "title": "Accès mobilité réduite",
+                "description": "Installations entièrement accessibles pour assurer le confort de tous nos invités"
+            }
+        ]
+    },
+    "menu": {
+        "title": "Notre Menu",
+        "items": {
+            "Ontbijt": "Petit-déjeuner",
+            "Broodjes": "Sandwichs",
+            "Toasts": "Toasts",
+            "Salades": "Salades",
+            "Desserten": "Desserts",
+            "Dranken": "Boissons"
+        }
+    },
+    "openingHours": {
+        "title": "Heures d'Ouverture",
+        "hours": {
+            "friday": "08:30–15:00",
+            "saturday": "09:00–16:00",
+            "sunday": "09:00–16:00",
+            "monday": "08:30–15:00",
+            "tuesday": "Fermé",
+            "wednesday": "08:30–15:00",
+            "thursday": "08:30–15:00"
+        }
+    },
+    "reservations": {
+        "title": "Réservez Votre Table",
+        "phone": {
+            "title": "Appelez pour Réserver",
+            "description": "Nous vous recommandons d'appeler pour réserver et garantir la meilleure expérience de restauration.",
+            "note": "Notre personnel se fera un plaisir de vous aider pour toute demande spéciale ou exigence diététique."
+        }
+    },
+    "reviews": {
+        "title": "Ce Que Nos Invités Disent",
+        "subtitle": "Expériences Authentiques de Nos Visiteurs",
+        "list": [
+            {
+                "name": "Najat",
+                "text": "Endroit chaleureux et familial avec un personnel très serviable et accueillant. Les plats sont quant à eux savoureux et copieux. Nous reviendrons très certainement 😊 Bonne continuation à vous !",
+                "rating": 5
+            },
+            {
+                "name": "Wendy Hoolants",
+                "text": "Nous sommes passés aujourd'hui et tout était complet. Pourtant, nous avons été aidés rapidement et gentiment. Service très amical et la nourriture était excellente ! Beaucoup trop ☺️ Tout était frais. Nous reviendrons certainement. Continuez comme ça.",
+                "rating": 5
+            },
+            {
+                "name": "Leen De Witte",
+                "text": "Super délicieux et sympathique ! Un sandwich frais délicieux et une salade de feta délicieuse. Le supplément pour l'avocat est peut-être un peu cher par rapport à la quantité. Merci pour cet endroit !",
+                "rating": 5
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contactez-nous",
+        "location": "Rue Lesage 39, 1820 Steenokkerzeel",
+        "phone": "+32 484 57 62 66",
+        "email": "Brunch-house@outlook.com",
+        "form": {
+            "name": "Votre Nom",
+            "email": "Votre E-mail",
+            "message": "Votre Message",
+            "submit": "Envoyer le Message",
+            "sending": "Envoi en cours...",
+            "success": "Message envoyé avec succès !",
+            "error": "Erreur lors de l'envoi du message. Veuillez réessayer.",
+            "validation": "Veuillez remplir tous les champs."
+        }
+    },
+    "days": {
+        "monday": "Lundi",
+        "tuesday": "Mardi",
+        "wednesday": "Mercredi",
+        "thursday": "Jeudi",
+        "friday": "Vendredi",
+        "saturday": "Samedi",
+        "sunday": "Dimanche"
+    },
+    "footer": {
+        "copyright": " O'Brunch House {{year}}. Tous droits reservés"
+    }
+}

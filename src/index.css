@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.section-container {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  transition: all 0.8s cubic-bezier(0.43, 0.13, 0.23, 0.96);
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100%)); /* Move one image width */
+  }
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(calc(-100%)); /* Start from offset */
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.scroll-right {
+  animation: scrollRight 40s linear infinite;
+}
+
+.scroll-left {
+  animation: scrollLeft 40s linear infinite;
+}
